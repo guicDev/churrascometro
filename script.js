@@ -17,7 +17,7 @@ function calcular() {
 
     resultado.innerHTML = `<p>${qntTotalCarne/1000} Kg de Carne</p>`
     resultado.innerHTML += `<p>${Math.ceil(qntdTotalCerveja/355)} Latas de Cerveja</p>`
-    resultado.innerHTML += `<p>${Math.ceil(qntTotalBebidas/2000)} Garrafas de Bebida</p>`
+    resultado.innerHTML += `<p>${Math.ceil(qntTotalBebidas/2000)} Garrafas de Refrigerante ou água</p>`
 }
 
 function carnepp(duracao) {
